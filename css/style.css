@@ -1,0 +1,24 @@
+body{
+    background-image: url(../Assets/DF\ bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img{
+    border: 5px solid black;
+}
+.watch{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.content{
+    
+    font-size: 23px;
+    text-decoration: underline;
+}
