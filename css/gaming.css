@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    color: antiquewhite;
+    margin-top: 80px;
+    margin-left: 0px;
+    text-decoration: underline;
+}
+body{
+    background-image: url(../Assets/gaming.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed; /* fixes while moving */
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+    gap: 30px;
+    margin-top: 0px;
+}
+.vid{
+    border: 3px solid white;
+}
+.text{
+    margin-bottom: 0px;
+    margin-top: 50px;
+    color: white;
+    width: 70px;
+    font-size: 24px;
+    transform: translateY(20px);
+}
+.video3{
+    display: flex;
+    justify-content: flex-end;
+    transform: translateY(-590px);
+    margin-right: 50px;
+}
+#text3{
+    transform: translate(70px,-90px);
+    color: white;
+    width: 70px;
+    font-size: 24px;
+}
+#backbuton{
+    font-size: 17px;
+    margin-top: -200px;
+    
+}
