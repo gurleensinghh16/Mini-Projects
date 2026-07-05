@@ -64,10 +64,12 @@ a{
     background-image: linear-gradient(to right,rgb(123, 165, 202),rgb(63, 71, 215));
     transition: all 0.5s;
     color: wheat;
+    cursor: pointer;
 }
 .btn:hover{
     /* background-image: linear-gradient(to right,rgb(142, 105, 105)); */
     border-radius: 15px;
     font-size:24px;
     width: auto;
+    transform: scale(1);
 }
