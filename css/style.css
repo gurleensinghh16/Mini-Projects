@@ -2,7 +2,7 @@ body{
     background-image: url(../Assets/DF\ bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    
 }
 h1{
     text-align: center;
@@ -18,7 +18,23 @@ h1{
     margin-bottom: 10px;
 }
 .content{
-    
     font-size: 23px;
     text-decoration: underline;
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 50px;
+}
+#lst{
+    display: flex;
+    justify-content: center;
+    transform: translate(-110px,-30px);
+}
+#span1{
+    margin-left: 100px;
+}
+#img3{
+    border:2px solid rgb(115, 8, 8);
 }
