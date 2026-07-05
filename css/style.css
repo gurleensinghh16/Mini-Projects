@@ -37,3 +37,21 @@ h1{
 #img3{
     border:2px solid rgb(115, 8, 8);
 }
+a{
+    text-decoration: none;
+}
+.btn{
+    font-size: 18px;
+    margin-top: 5px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,rgb(123, 165, 202),rgb(63, 71, 215));
+    transition: all 0.5s;
+    color: wheat;
+}
+.btn:hover{
+    /* background-image: linear-gradient(to right,rgb(142, 105, 105)); */
+    border-radius: 15px;
+    font-size:24px;
+    width: auto;
+}

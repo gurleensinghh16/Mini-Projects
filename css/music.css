@@ -7,7 +7,7 @@ h1{
     margin: 0px;
 }
 body{
-    background-image: url(../Assets/musicBg.jpeg);
+    background-image: linear-gradient(to right,rgb(205, 118, 118),rgb(100, 206, 100),rgb(194, 119, 194));
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center;
@@ -23,18 +23,31 @@ h4{
     width: 100px;
     transform: translate(270px,100px);
     font-size: 24px;
-    background-color: black;
-    border: 3px solid rgb(255, 255, 255);
+    background-image: linear-gradient(to right,rgb(207, 211, 142),rgb(215, 138, 215));
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
+    transition: all 0.5s;
+}
+h4:hover{
+    border-radius: 20px;
+    font-size: 28px;
+    width: 120px;
 }
 .vid{
     border: 3px solid rgb(15, 102, 85);
+    transition: all 0.5s;
+}
+.vid:hover{
+    border-radius: 50px;
+
 }
 #button{
-    font-size: 18px;
-    background-color: rgb(200, 84, 84);
+    font-size: 15px;
+    background-image: linear-gradient(to right,rgb(185, 154, 97),rgb(113, 203, 75),rgb(237, 108, 53));
     color: white;
-    border: 3px solid white;
+    border: 1px solid white;
+    border-radius: 5px;
     transform: translateY(-30px);
 }
